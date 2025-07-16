@@ -1,6 +1,6 @@
 # Proyectos de Machine Learning en Python
 
-Este repositorio contiene tres proyectos de aprendizaje automático desarrollados en Jupyter Notebooks. Cada notebook aborda una tarea diferente y demuestra la aplicación de diversos algoritmos y técnicas, desde los fundamentos hasta flujos de trabajo más avanzados, cabe mencionar que se realizaron otros dos proyectos relacionados con la regresión y las anomalías sin embargo estos se realizaron en clase y por lo tanto no dispongo de ese material.
+Este repositorio contiene cuatro proyectos de aprendizaje automático desarrollados en Jupyter Notebooks. Cada notebook aborda una tarea diferente y demuestra la aplicación de diversos algoritmos y técnicas, desde los fundamentos hasta flujos de trabajo más avanzados, cabe mencionar que se realizó otro proyecto relacionado con las anomalías sin embargo este se realizó en clase y por lo tanto no dispongo de ese material.
 
 ---
 
