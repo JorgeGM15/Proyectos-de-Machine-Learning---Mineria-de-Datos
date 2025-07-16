@@ -27,6 +27,31 @@ Este repositorio contiene tres proyectos de aprendizaje automático desarrollado
 * **Conceptos**: `Pipelines` para encapsular flujos de trabajo, `GridSearchCV` para la búsqueda de hiperparámetros y **Validación Cruzada Anidada** para una evaluación imparcial del rendimiento.
 * **Algoritmos**: Regresión Logística, Máquinas de Vectores de Soporte (SVC) y XGBoost.
 
+### 4. `regresión.ipynb` - Comparativa de Modelos de Regresión
+El objetivo principal es aplicar un flujo de trabajo de machine learning para un problema de regresión. El proceso incluye:
+1.  Carga y preparación del dataset **California Housing**.
+2.  Selección de un subconjunto de características para el modelo.
+3.  División de los datos en conjuntos de entrenamiento y prueba.
+4.  Entrenamiento y evaluación de tres modelos distintos.
+5.  Comparación de su rendimiento utilizando métricas estándar.
+
+## ✨ Modelos y Métricas
+
+### Modelos Evaluados
+Se implementan y comparan los siguientes algoritmos de regresión:
+* **Regresión Lineal**: Como modelo base.
+* **K-Vecinos más Cercanos (KNN)**: Un enfoque no paramétrico.
+* **XGBoost**: Un modelo avanzado de ensamblaje (ensemble).
+
+### Métricas de Evaluación
+El rendimiento de cada modelo se mide con:
+* **Coeficiente de Determinación (R²)**: Para medir la proporción de la varianza explicada por el modelo.
+* **Raíz del Error Cuadrático Medio (RMSE)**: Para medir la magnitud del error de predicción.
+
+## ⚠️ Nota Importante sobre la Calificación Automática
+
+Este notebook de `regresión.ipynb` incluye celdas con una función de calificación automática (`quiz.eval_numeric`) que pueden mostrar un `AssertionError`. **Estos errores deben ser ignorados**. Según las indicaciones del instructor, los valores esperados por el calificador automático son incorrectos, mientras que los resultados calculados por el código del notebook son los correctos.
+
 ---
 
 ## 🔧 Requisitos
